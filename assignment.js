@@ -1,11 +1,8 @@
 /* 
     The interest of a loan is 5 Naira per day on Hush Company
-
     James collected the sum of 25,000 Naira from Hush company for the period of 45 days
-
     the program below simulate the interest Jame is paying for a specific period, you are the arrange the program ,
     using the appropriate structure that will run the program correctly
-
 */
 
 
