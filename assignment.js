@@ -42,7 +42,6 @@ let message_5 = `Hello ${customer}, Only James can collect loan from our company
 //where do you tell the user message 5
 
 
-
 if(specific_period < loan_period && specific_period != 1 && collected_loan < maxi_amount_to_collect){
  console.log(message_1);
 }
