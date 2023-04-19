@@ -26,7 +26,6 @@ let specific_period = 30;
 let maxi_amount_to_collect = 75000;
 let customer = "James";
 
-
 let compound_interest = collected_loan + (company_interest * specific_period);
 
 let message_1 = `Hello ${customer}, you will be paying ${compound_interest} Naira at the end of ${specific_period} days, for collecting a loan of ${collected_loan}`;
@@ -39,8 +38,6 @@ let message_4 = `Hello ${customer}, You can not collect more than ${maxi_amount_
 
 let message_5 = `Hello ${customer}, Only James can collect loan from our company`;
 
-//where do you tell the user message 5
-
 
 if(specific_period < loan_period && specific_period != 1 && collected_loan < maxi_amount_to_collect){
  console.log(message_1);
@@ -50,10 +47,12 @@ if(specific_period > loan_period){
     console.log(message_2);
 }
 
-if(specific_period == 1){
+if(specific_period == 1   ){
     console.log(message_3);
 }
 
 if(collected_loan > maxi_amount_to_collect){
     console.log(message_4);
 }
+
+
